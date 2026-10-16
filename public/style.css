@@ -17,7 +17,8 @@ main>h1:first-child{margin:0 -22px;padding:64px 22px 10px;background:linear-grad
 main>h1:first-child+p{margin:0 -22px 0;padding:0 22px 56px;background:linear-gradient(135deg,#0b2f38 0%,#0e5a63 55%,#1d7f7a 100%);color:#d9ecea;font-size:1.12rem;border-radius:0 0 28px 28px}
 main>h1:first-child+p::after{content:'\2713  Real local prices    \2713  Updated October 2026    \2713  Written for Ohio homes';display:block;margin-top:22px;font-size:.88rem;font-weight:600;color:var(--gold);white-space:pre-wrap}
 article{background:#fff;margin-top:34px;padding:44px clamp(22px,5vw,56px);border-radius:22px;border:1px solid var(--line);box-shadow:0 18px 50px -24px rgba(11,47,56,.25)}
-article>h1{border-bottom:3px solid var(--gold);padding-bottom:16px;display:inline}
+article>h1{display:block;padding-bottom:0;border-bottom:0}
+article>h1::after{content:'';display:block;width:72px;height:4px;border-radius:4px;background:var(--gold);margin-top:18px}
 .meta{color:var(--muted);font-size:.9rem;margin:22px 0 26px;display:flex;align-items:center;gap:8px}
 .meta::before{content:'\2713';display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#e3f1ef;color:var(--teal);font-size:.75rem;font-weight:700}
 .cards{display:grid;gap:18px;margin-top:36px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
