@@ -1,0 +1,12 @@
+{
+  "name": "central-ohio-window-guide",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "serve public -l tcp://0.0.0.0:${PORT:-3000}"
+  },
+  "dependencies": {
+    "serve": "^14.2.4"
+  },
+  "engines": { "node": ">=18" }
+}
