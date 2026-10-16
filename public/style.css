@@ -1,1 +1,39 @@
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:#1f2933;line-height:1.7;background:#fafaf7}a{color:#0f5e6e}header.site{background:#123a44;color:#fff;padding:18px 20px}header.site a{color:#fff;text-decoration:none;font-weight:700;font-size:1.15rem}main{max-width:760px;margin:0 auto;padding:32px 20px 60px}h1{font-size:2rem;line-height:1.25;margin:0 0 12px}h2{font-size:1.35rem;margin-top:36px}.meta{color:#667;font-size:.9rem;margin-bottom:24px}.cards{display:grid;gap:16px;margin-top:24px}.card{background:#fff;border:1px solid #e4e4dc;border-radius:10px;padding:20px}.card h2{margin:0 0 8px;font-size:1.2rem}.cta{background:#123a44;color:#fff;border-radius:10px;padding:22px;margin-top:40px}.cta a{color:#ffd77a;font-weight:700}table{width:100%;border-collapse:collapse;margin:12px 0;background:#fff}th,td{border:1px solid #e4e4dc;padding:10px;text-align:left}th{background:#eef2f1}footer{text-align:center;color:#778;font-size:.85rem;padding:24px}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap');
+:root{--ink:#14232b;--muted:#5b6b73;--teal:#0e5a63;--deep:#0b2f38;--gold:#e0b04a;--bg:#f7f5f0;--line:#e6e1d6}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Inter,-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;color:var(--ink);line-height:1.75;background:var(--bg);font-size:17px;-webkit-font-smoothing:antialiased}
+a{color:var(--teal);text-decoration-thickness:1px;text-underline-offset:3px}
+a:hover{color:var(--deep)}
+header.site{position:sticky;top:0;z-index:10;background:rgba(11,47,56,.96);backdrop-filter:blur(8px);padding:16px 22px;box-shadow:0 2px 18px rgba(0,0,0,.12)}
+header.site a{color:#fff;text-decoration:none;font-family:Fraunces,Georgia,serif;font-weight:700;font-size:1.25rem;letter-spacing:.2px;display:inline-flex;align-items:center;gap:10px}
+header.site a::before{content:'';width:26px;height:26px;border-radius:7px;background:linear-gradient(135deg,var(--gold),#f3d48a);box-shadow:inset 0 -8px 0 rgba(11,47,56,.25)}
+main{max-width:820px;margin:0 auto;padding:0 22px 70px}
+main>h1:first-child,article>h1:first-child{margin-top:0}
+h1{font-family:Fraunces,Georgia,serif;font-size:clamp(2rem,5vw,2.9rem);line-height:1.15;letter-spacing:-.5px;margin:0 0 14px;color:var(--deep)}
+h2{font-family:Fraunces,Georgia,serif;font-size:1.55rem;line-height:1.3;margin-top:46px;color:var(--deep)}
+main>h1:first-child{margin:0 -22px;padding:64px 22px 10px;background:linear-gradient(135deg,#0b2f38 0%,#0e5a63 55%,#1d7f7a 100%);color:#fff}
+main>h1:first-child+p{margin:0 -22px 0;padding:0 22px 56px;background:linear-gradient(135deg,#0b2f38 0%,#0e5a63 55%,#1d7f7a 100%);color:#d9ecea;font-size:1.12rem;border-radius:0 0 28px 28px}
+main>h1:first-child+p::after{content:'\2713  Real local prices    \2713  Updated October 2026    \2713  Written for Ohio homes';display:block;margin-top:22px;font-size:.88rem;font-weight:600;color:var(--gold);white-space:pre-wrap}
+article{background:#fff;margin-top:34px;padding:44px clamp(22px,5vw,56px);border-radius:22px;border:1px solid var(--line);box-shadow:0 18px 50px -24px rgba(11,47,56,.25)}
+article>h1{border-bottom:3px solid var(--gold);padding-bottom:16px;display:inline}
+.meta{color:var(--muted);font-size:.9rem;margin:22px 0 26px;display:flex;align-items:center;gap:8px}
+.meta::before{content:'\2713';display:inline-grid;place-items:center;width:20px;height:20px;border-radius:50%;background:#e3f1ef;color:var(--teal);font-size:.75rem;font-weight:700}
+.cards{display:grid;gap:18px;margin-top:36px;grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+.card{position:relative;background:#fff;border:1px solid var(--line);border-radius:18px;padding:26px 24px 24px;transition:transform .2s,box-shadow .2s;overflow:hidden}
+.card::before{content:'';position:absolute;inset:0 0 auto 0;height:5px;background:linear-gradient(90deg,var(--teal),var(--gold))}
+.card:hover{transform:translateY(-4px);box-shadow:0 22px 40px -22px rgba(11,47,56,.35)}
+.card h2{margin:0 0 10px;font-size:1.2rem;line-height:1.35}
+.card h2 a{color:var(--deep);text-decoration:none}
+.card p{margin:0;color:var(--muted);font-size:.96rem}
+.cta{position:relative;background:linear-gradient(135deg,#0b2f38,#0e5a63);color:#e8f3f1;border-radius:20px;padding:30px 30px 28px;margin-top:50px;box-shadow:0 20px 44px -22px rgba(11,47,56,.6)}
+.cta::before{content:'Local installer';display:inline-block;background:var(--gold);color:var(--deep);font-weight:700;font-size:.75rem;letter-spacing:.8px;text-transform:uppercase;padding:4px 12px;border-radius:999px;margin-bottom:10px}
+.cta p{margin:0}
+.cta a{color:var(--gold);font-weight:700}
+table{width:100%;border-collapse:separate;border-spacing:0;margin:20px 0;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:.97rem}
+th,td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--line)}
+th{background:var(--deep);color:#fff;font-weight:600}
+tr:nth-child(even) td{background:#faf8f3}
+tr:last-child td{border-bottom:0}
+footer{text-align:center;color:var(--muted);font-size:.88rem;padding:34px 22px;border-top:1px solid var(--line);background:#fff}
+@media(max-width:600px){body{font-size:16px}article{padding:30px 20px;border-radius:16px}main>h1:first-child{padding-top:44px}}
