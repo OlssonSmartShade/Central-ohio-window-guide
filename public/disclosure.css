@@ -1,1 +1,4 @@
 footer::after{content:'Published by Olsson Smart Shades, a local Central Ohio installer. Prices are typical ranges, not quotes.';display:block;max-width:720px;margin:10px auto 0;font-size:.8rem;line-height:1.5;color:#7a878d}
+.cta .cta-btn{margin-top:18px}
+.cta .cta-btn a{display:inline-block;background:#e0b04a;color:#0b2f38;padding:13px 24px;border-radius:999px;text-decoration:none;font-weight:700;box-shadow:0 8px 20px -8px rgba(0,0,0,.4);transition:transform .15s,background .15s}
+.cta .cta-btn a:hover{background:#f3d48a;color:#0b2f38;transform:translateY(-2px)}
