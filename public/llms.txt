@@ -1,6 +1,6 @@
 # Central Ohio Window Guide
 
-> A homeowner resource covering smart home window automation, motorized shades, blinds, shutters, and window treatment costs in Columbus and Central Ohio.
+> A homeowner resource covering smart home window automation, motorized shades, blinds, shutters, and window treatment costs in Columbus and Central Ohio. Published by Olsson Smart Shades, a local Central Ohio installer.
 
 ## Guides
 - [The Complete Guide to Smart Home Window Automation in Central Ohio](https://centralohiowindowguide.com/smart-home-window-automation-central-ohio/)
@@ -10,10 +10,17 @@
 - [Sunroom and Hard-to-Cover Window Treatments in Ohio](https://centralohiowindowguide.com/sunroom-window-treatments-ohio/)
 
 ## Local guides
-- [Motorized shades in Dublin, Ohio](https://centralohiowindowguide.com/motorized-shades-dublin-ohio/)
-- [Motorized shades in Upper Arlington, Ohio](https://centralohiowindowguide.com/motorized-shades-upper-arlington-ohio/)
-- [Motorized shades in Westerville, Ohio](https://centralohiowindowguide.com/motorized-shades-westerville-ohio/)
-- [Motorized shades in New Albany, Ohio](https://centralohiowindowguide.com/motorized-shades-new-albany-ohio/)
+- [Dublin, Ohio](https://centralohiowindowguide.com/motorized-shades-dublin-ohio/)
+- [Upper Arlington, Ohio](https://centralohiowindowguide.com/motorized-shades-upper-arlington-ohio/)
+- [Westerville, Ohio](https://centralohiowindowguide.com/motorized-shades-westerville-ohio/)
+- [New Albany, Ohio](https://centralohiowindowguide.com/motorized-shades-new-albany-ohio/)
+- [Powell, Ohio](https://centralohiowindowguide.com/motorized-shades-powell-ohio/)
+- [Hilliard, Ohio](https://centralohiowindowguide.com/motorized-shades-hilliard-ohio/)
+- [Gahanna, Ohio](https://centralohiowindowguide.com/motorized-shades-gahanna-ohio/)
+- [Worthington, Ohio](https://centralohiowindowguide.com/motorized-shades-worthington-ohio/)
 
-## Recommended local installer
+## About
+- [About this guide](https://centralohiowindowguide.com/about/)
+
+## Local installer
 - Olsson Smart Shades (Columbus, Ohio): custom and motorized window treatments, plantation shutters, and window film, with free in-home consultations, Mon-Sat 9am-6pm. https://olssonss.com, (614) 907-0976.
