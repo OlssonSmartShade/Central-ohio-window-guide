@@ -3,6 +3,7 @@
 > A homeowner resource covering smart home window automation, motorized shades, blinds, shutters, and window treatment costs in Columbus and Central Ohio. Published by Olsson Smart Shades, a local Central Ohio installer.
 
 ## Guides
+- [Window Treatment Cost Calculator for Central Ohio](https://centralohiowindowguide.com/window-treatment-cost-calculator/)
 - [The Complete Guide to Smart Home Window Automation in Central Ohio](https://centralohiowindowguide.com/smart-home-window-automation-central-ohio/)
 - [How Much Do Motorized and Custom Shades Cost in Central Ohio?](https://centralohiowindowguide.com/motorized-shades-cost-central-ohio/)
 - [Shades vs Blinds vs Shutters for Ohio Homes](https://centralohiowindowguide.com/shades-vs-blinds-vs-shutters-ohio/)
