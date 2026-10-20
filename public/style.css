@@ -39,3 +39,6 @@ tr:nth-child(even) td{background:#faf8f3}
 tr:last-child td{border-bottom:0}
 footer{text-align:center;color:var(--muted);font-size:.88rem;padding:34px 22px;border-top:1px solid var(--line);background:#fff}
 @media(max-width:600px){body{font-size:16px}article{padding:30px 20px;border-radius:16px}main>h1:first-child{padding-top:44px}}
+figure.job{margin:1.5rem 0}
+figure.job img{width:100%;height:auto;border-radius:8px;display:block}
+figure.job figcaption{font-size:.9rem;opacity:.75;margin-top:.4rem}
