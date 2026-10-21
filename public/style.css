@@ -42,3 +42,6 @@ footer{text-align:center;color:var(--muted);font-size:.88rem;padding:34px 22px;b
 figure.job{margin:1.5rem 0}
 figure.job img{width:100%;height:auto;border-radius:8px;display:block}
 figure.job figcaption{font-size:.9rem;opacity:.75;margin-top:.4rem}
+
+/* Wide comparison tables scroll sideways on phones instead of pushing the page wider */
+@media (max-width: 700px) { table { display: block; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; } }
