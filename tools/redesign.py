@@ -61,7 +61,7 @@ CITY_ALT = "Custom window treatments in a {} area home (manufacturer photo)"
 
 FONTS = ('<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>'
          '<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Jost:wght@400;500&display=swap">'
-         '<link rel="stylesheet" href="/style.css?v=2">'
+         '<link rel="stylesheet" href="/style.css?v=3">'
          '<meta name="theme-color" content="#faf7f0">'
          '<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 fill=%27%231f1b17%27/%3E%3Ctext x=%2732%27 y=%2745%27 text-anchor=%27middle%27 font-family=%27Georgia%27 font-size=%2738%27 fill=%27%23e7c97f%27%3EW%3C/text%3E%3C/svg%3E">'
          '<script>document.documentElement.classList.add("js")</script>')
