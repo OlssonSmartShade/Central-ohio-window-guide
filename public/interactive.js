@@ -211,7 +211,7 @@ function floatCta(){
   var f=el('div','float-cta','<span class="fc-dot"></span><span class="fc-t">Questions? A real person answers.</span><a href="tel:+16149070976" class="fc-call" aria-label="Call Olsson Smart Shades">(614) 907-0976</a><a href="https://olssonss.com/quote" class="fc-go">Free consultation &rarr;</a>');
   f.setAttribute('aria-label','Contact the local installer');d.body.appendChild(f);
   var foot=d.querySelector('.foot');
-  var mods=[].slice.call(d.querySelectorAll('.studio,.motor,.rooms,.calc'));
+  var mods=[].slice.call(d.querySelectorAll('.studio,.motor,.rooms,.calc,.cine,.reel'));
   function on(){var y=window.scrollY,vh=window.innerHeight,show=y>vh*.9;if(foot&&foot.getBoundingClientRect().top<vh)show=false;
     mods.forEach(function(m){var r=m.getBoundingClientRect();if(r.top<vh-60&&r.bottom>vh*.35)show=false;});f.classList.toggle('show',show);}
   window.addEventListener('scroll',on,{passive:true});on();
