@@ -1,0 +1,31 @@
+name: Seasonal homepage update
+
+on:
+  schedule:
+    - cron: "15 10 * * *"   # daily ~6:15am ET; commits only when the season changes
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  season:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Refresh seasonal blocks
+        run: node tools/season.js
+      - name: Commit if changed
+        run: |
+          if git diff --quiet; then
+            echo "Season unchanged."
+            exit 0
+          fi
+          git config user.name "seasonal-bot"
+          git config user.email "seasonal-bot@users.noreply.github.com"
+          git add public/index.html
+          git commit -m "Seasonal homepage refresh"
+          git push
