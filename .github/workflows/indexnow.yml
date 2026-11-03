@@ -1,0 +1,21 @@
+name: IndexNow ping (Bing / ChatGPT search)
+
+on:
+  push:
+    branches: [main]
+    paths: ['public/**']
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Wait for Netlify deploy
+        run: sleep 90
+      - name: Submit sitemap URLs to IndexNow
+        run: |
+          KEY=569b4b37f00218750a269344049e47a0
+          URLS=$(grep -o '<loc>[^<]*</loc>' public/sitemap.xml | sed 's/<[^>]*>//g' | python3 -c "import sys,json;print(json.dumps([l.strip() for l in sys.stdin if l.strip()]))")
+          BODY=$(printf '{"host":"centralohiowindowguide.com","key":"%s","keyLocation":"https://centralohiowindowguide.com/%s.txt","urlList":%s}' "$KEY" "$KEY" "$URLS")
+          curl -sS -o /dev/null -w "IndexNow HTTP %{http_code}\n" -X POST https://api.indexnow.org/indexnow -H 'Content-Type: application/json; charset=utf-8' -d "$BODY"

@@ -146,8 +146,8 @@ var ROOMS=[
   {k:'Bedroom',img:'norman-portrait-honeycomb-cellular-shades-bedroom-15.webp',pick:'Blackout cellular shades',why:'Honeycomb cells insulate against Ohio winters, and a blackout fabric darkens the room for sleep. Go cordless, or motorize so they close on a schedule.',price:'$175 to $750 per window',link:'/child-pet-safe-cordless-window-treatments/',lt:'Child- and pet-safe options'},
   {k:'Great room',img:'norman-woodlore-composite-plantation-shutters-great-room-36.webp',pick:'Motorized roller or solar shades',why:'Tall and two-story windows can\'t be reached by hand. Group every shade into one scene so the whole wall moves together.',price:'$450 to $1,300 per window',link:'/smart-home-window-automation-central-ohio/',lt:'Smart home automation guide'},
   {k:'Sunroom',img:'norman-perfectsheer-shades-living-room-89.webp',pick:'Solar shades, often motorized',why:'Glass on three sides means glare and heat. A 3 to 5 percent openness cuts both while keeping the view of the yard.',price:'$175 to $650 per window, manual',link:'/sunroom-window-treatments-ohio/',lt:'Sunroom guide'},
-  {k:'Kitchen',img:'norman-centerpiece-roman-shades-dining-room-27.webp',pick:'Roller shades or faux wood blinds',why:'Moisture-resistant materials that wipe clean. Keep the fabric consistent with the open living area so it reads as one space.',price:'$125 to $650 per window',link:'/shades-vs-blinds-vs-shutters-ohio/',lt:'Shades vs. blinds vs. shutters'},
-  {k:'Front rooms',img:'norman-woodlore-composite-plantation-shutters-living-room-31.webp',pick:'Plantation shutters',why:'The look from the street matters here. Shutters give a clean, consistent exterior and add to resale value.',price:'$275 to $1,600 per window',link:'/plantation-shutters-cost-columbus-ohio/',lt:'Shutter cost guide'},
+  {k:'Kitchen',img:'norman-centerpiece-roman-shades-dining-room-27.webp',pick:'Roller shades or faux wood blinds',why:'Moisture-resistant materials that wipe clean. Keep the fabric consistent with the open living area so it reads as one space.',price:'$150 to $650 per window',link:'/shades-vs-blinds-vs-shutters-ohio/',lt:'Shades vs. blinds vs. shutters'},
+  {k:'Front rooms',img:'norman-woodlore-composite-plantation-shutters-living-room-31.webp',pick:'Plantation shutters',why:'The look from the street matters here. Shutters give a clean, consistent exterior and add to resale value.',price:'$275 to $1,950 per window',link:'/plantation-shutters-cost-columbus-ohio/',lt:'Shutter cost guide'},
   {k:'Home office',img:'norman-soluna-roller-shades-home-office-90.webp',pick:'Light-filtering or solar roller shades',why:'Stop afternoon screen glare without killing the daylight. A schedule can lower them at 2 pm every weekday.',price:'$175 to $650 per window',link:'/motorized-shades-cost-central-ohio/',lt:'Full cost guide'}
 ];
 function Rooms(root){
@@ -208,7 +208,7 @@ function Motor(root){
 
 /* ================= FLOATING CTA ================= */
 function floatCta(){
-  var f=el('div','float-cta','<span class="fc-dot"></span><span class="fc-t">Questions? A real person answers.</span><a href="tel:+16149070976" class="fc-call" aria-label="Call Olsson Smart Shades">(614) 907-0976</a><a href="https://olssonss.com/quote" class="fc-go">Free consultation &rarr;</a>');
+  var f=el('div','float-cta','<span class="fc-dot"></span><span class="fc-t">Questions? A real person answers.</span><a href="tel:+16149070976" class="fc-call" aria-label="Call Olsson Smart Shades">(614) 907-0976</a><a href="https://www.olssonss.com/quote" class="fc-go">Free consultation &rarr;</a>');
   f.setAttribute('aria-label','Contact the local installer');d.body.appendChild(f);
   var foot=d.querySelector('.foot');
   var mods=[].slice.call(d.querySelectorAll('.studio,.motor,.rooms,.calc,.cine,.reel'));
